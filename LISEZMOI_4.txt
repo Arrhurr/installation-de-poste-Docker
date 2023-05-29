@@ -1,0 +1,31 @@
+Pour lancer ce script il faut d'abord s'assurer que les fichiers nécessaire à son lancement sont dans le répertoire courant.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Résumé :
+
+Le script génère le fichier html
+
+Programmes se trouvant dans le dossier Docker:
+
+-regions.conf
+-iso.data
+-texte.data
+-Les logo des régions dans ce même répertoire
+-tableau.dat
+-comm.dat
+-le qrcode du site de l'entreprise
+-Dans un dossier photos avoir les images .svg qui seront converti en .png
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Comment l'utiliser :
+
+Maintenant que les élément requis sont là, pour lancer le script il faut d'abord faire la commande
+1 ) docker pull bigpapoo/sae103-php 
+OU (si a l'iut) 
+1 ) docker image pull sae103-php
+Il faut ensuite faire la commande :
+2 ) docker run -v *répertoire courant*:/work sae103-php php -f script-html.php > page.html
+OU si à l'iut : 
+2 ) docker container run -v *répertoire courant*:/work sae103-php php -f script-html.php > page.html 

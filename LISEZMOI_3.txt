@@ -1,0 +1,23 @@
+Génération du qr code de la dernière page.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Résumé :
+
+Le script génère le qr_code
+
+Programmes se trouvant dans le dossier Docker:
+
+- iso.data
+- genqr
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Comment l'utiliser :
+
+1) L'utilisateur doit se trouver dans son dossier Docker
+2) Telecharger l'image docker 'sae103-qrcode' : docker image pull bigpapoo/sae103-qrcode
+OU si l'utilisateur est à l'IUT
+2) Telecharger l'image docker 'sae103-qrcode' : docker image pull sae103-qrcode
+3) Récupérer les droits du programme du qrcode via : chmod +x genqr.sh
+4) Lancer le programme de générat qrcode via : ./genqr.sh

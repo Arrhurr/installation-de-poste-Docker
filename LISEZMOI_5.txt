@@ -1,0 +1,24 @@
+Convertion du fichier html en fichier pdf
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Résumé :
+
+Le script génère le qr_code
+
+Paramètres à entrer :
+
+1) Le nom de la page html
+2) Le nom de la page pdf que vous souhaitez obtenir, avec le point pdf derrière
+3) un nombre, 0 ou 1, si vous êtes à l'iut 1 et sinon 0
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Comment l'utiliser :
+
+1) L'utilisateur doit se trouver dans son dossier Docker
+2) Telecharger l'image docker 'sae103-qrcode' : docker pull bigpapoo/sae103-html2pdf
+OU si l'utilisateur est à l'IUT
+2) Telecharger l'image docker 'sae103-qrcode' : docker image pull sae103-html2pdf
+3) Récupérer les droits du programme via : chmod +x html2pdf.sh
+4) Lancer le programme de génération via : script-html.php

@@ -1,0 +1,19 @@
+Génération avatar des meilleurs vendeurs de la deuxième page.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Résumé :
+
+Le script modifie les avatars présents dans le dossier photos pour qu'ils soient en nuance de gris, avec une dimension de 200x200, au format PNG.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Comment l'utiliser :
+
+1) L'utilisateur doit se trouver dans son dossier Docker
+2) Les images doivent obligatoirement être dans un dossier nommée photos
+3) Récupérer les droits du programme d'avatar via : chmod +x image.sh
+4) Lancer le programme de génération d'avatar via : ./image.sh *paramètre*
+
+paramètre : 1 si en dehors de l'iut
+            0 si à l'iut

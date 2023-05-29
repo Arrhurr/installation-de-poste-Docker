@@ -1,0 +1,39 @@
+Traitement de tous les fichiers pdf
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Résumé :
+
+Le script génère tous les fichiers pdf regions par regions
+
+Fichiers se trouvant dans le dossier courant de l'utilisateur :
+
+1) L'ensemble des images des vendeurs contenues dans un dossier photos dans le dossier courant
+2) L'ensemble des images des logos contenues dans le repertoire courant
+3) L'ensemble des textes de présentations contenus dans le repertoire courant
+
+Attention l'utilisateur doit se trouver dans un chemin ou aucun dossier doit contenir un espace dans son nom
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Comment l'utiliser :
+
+1) L'utilisateur doit executer tous les pull docker suivants manuellement :
+  
+  - docker image pull sae103-php
+  - docker image pull sae103-qrcode
+  - docker image pull sae103-html2pdf
+  - docker image pull sae103-imagick
+  
+  
+2) L'utilisateur doit avoir les droits d'executions donc réaliser la commande :
+
+./chmod 777 *
+  
+3) L'utilisateur lance le programme via la commande :
+
+./script.sh param1 param2
+
+param1 : Le dossier dans lequel se trouve les textes
+param2 : Le dossier dans lequel se trouve les images
+              

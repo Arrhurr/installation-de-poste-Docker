@@ -1,0 +1,5 @@
+Conversion en PNG : Arthur Donou 100%
+Documentation : Arthur Donou 20% Margaux Bisquay 70% Yanis Fouad 10%
+Transformation du modèle HTML avec un script php : Arthur Donou 85% - Margaux Bisquay 15 %
+Génération du pdf : Arthur Donou 80% Yanis Fouad 20%
+Code Bash final : Guillaume Puill 100%

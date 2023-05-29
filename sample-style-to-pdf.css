@@ -1,0 +1,114 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+   background-color:white;
+   margin: 1em;
+   padding: 1em;
+}
+
+section {
+   position: relative;
+   height: 100vh;
+}
+
+.bottom {
+   position: absolute;
+   bottom: 0;
+   border: 1px;
+   min-height: 5rem;
+}
+.grasV{
+   font-weight:bold;
+   color:green;
+}
+.grasR{
+   font-weight:bold;
+   color:red;
+}
+table{
+   border-color:black;
+   border-width:1px;
+   border-style:solid;
+}
+th{
+   border-color:black;
+   border-width:1px;
+   border-style:solid;
+   padding:0.5em;
+}
+td{
+   border-color:black;
+   border-width:1px;
+   border-style:dotted;
+   padding:0.5em;
+}
+h1{
+   font-size:2em;
+   text-align:center;
+   margin:0.5em;
+}
+h2{
+   font-size:1.7em;
+   text-align:center;
+   margin:0.5em;
+}
+
+section>p{
+   font: size 13px;
+   text-align:left;
+   margin:0.5em;
+
+}
+table{
+   text-align:center;
+}
+.logo{
+   width:300px;
+   height:75px;
+}
+.qr{
+   width:300px;
+   height:300px;
+}
+section>p+figure{
+   position:absolute;
+   left:33em;
+   top:15em;
+}
+table{
+   position:absolute;
+   left:8em;
+}
+ul{
+   display:flex;
+   flex-direction:row;
+   justify-content:center;
+
+}
+ul img{
+   width:200px;
+   height:200px;
+}
+ul figure{
+   margin:1em;
+}
+
+/* @page { size: A4 } */
+
+@media print {
+   section {
+      border: 1px solid black;
+      width: 8.26in;
+      height: 11.66in;
+      margin: 0;
+      /* change the margins as you want them to be. */
+      page-break-after: always;
+      
+   }
+   p{
+      font-size:13px;
+   }
+}
